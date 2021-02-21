@@ -1,4 +1,5 @@
 file(GLOB main_SRC
+        db.cpp
         )
 
 add_executable(sqlite_learn main.cpp ${main_SRC})
